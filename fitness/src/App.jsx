@@ -11,12 +11,12 @@ const App = () => {
   return (
   <Box width= "400px">
       <Navbar/>
-    <BrowserRouter>
+    
       <Routes>
         <Route path="/" element = {<Home/>}/>
         <Route path="/excercise/:id" element={<ExcerciseDetail/>}/>
       </Routes>
-    </BrowserRouter>
+    
     <Footer/>
   </Box>
   )
