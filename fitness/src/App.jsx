@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes , Route} from "react-router-dom";
+import {  Routes , Route} from "react-router-dom";
 import {Box} from "@mui/material";
 import Navbar from "./components/Navbar";
 import ExcerciseDetail from "./pages/ExcerciseDetail";
