@@ -4,42 +4,36 @@ import "../App.css"; // Import your CSS file
 
 const Herobanner = () => {
   return (
-    <div className="banner">
-      <div className="left">
-        <Box
-          sx={{
-            mt: { lg: "160px", xs: "80px" },
-            ml: { sm: "60px" },
-          }}
-          position="relative"
-          p="20px"
-        >
-          <Typography color="#FF2625" fontWeight="600" fontSize="26px">
-            Fitness Club
-          </Typography>
+    <Box
+      sx={{
+        mt: { lg: "212px", xs: "70px" },
+        ml: { sm: "50px" },
+        display: "flex", // Add a display property to make the text and image side by side
+        alignItems: "center", // Center text vertically
+      }}
+      position="relative"
+      p="20px"
+    >
+      <div>
+        <Typography color="#FF2625" fontWeight="600" fontSize="26px">
+          Fitness Club
+        </Typography>
 
-          <Typography fontWeight={700} sx={{ fontSize: { lg: "44px", xs: "40px" } }}>
-            Sweat, Smile, <br /> and Repeat
-          </Typography>
+        <Typography fontWeight={700} sx={{ fontSize: { lg: "44px", xs: "40px" } }}>
+          Sweat, Smile, <br /> and Repeat
+        </Typography>
 
-          <Typography fontSize="22px" lineHeight="40px">
-            Check out the most effective websites
-          </Typography>
+        <Typography fontSize="22px" lineHeight="40px">
+          Check out the most effective websites
+        </Typography>
 
-          <Button variant="contained" href="#exercises" color="error">
-            Explore Exercise
-          </Button>
-        </Box>
+        <Button variant="contained" href="#exercises" color="error">
+          Explore Exercise
+        </Button>
       </div>
 
-      <div className="right">
-        <img
-          src={HeroBannnerImage}
-          alt="banner"
-          className="image1"
-        />
-      </div>
-    </div>
+      <img src={HeroBannnerImage} alt="banner" className="hero-banner-img" />
+    </Box>
   );
 };
 
