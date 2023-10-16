@@ -12,7 +12,7 @@ const Navbar = () => {
             sm:"32px",
             xs:"20px"
         } , 
-        justifyContent:"none"
+        // justifyContent:"none"
     
     }} px="20px"
     
