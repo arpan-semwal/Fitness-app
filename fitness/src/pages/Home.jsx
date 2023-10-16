@@ -8,6 +8,7 @@ const Home = () => {
   return (
     <Box>
       <Herobanner/>
+    
       <SearchExercises/>
       <Exercises/>
     </Box>
