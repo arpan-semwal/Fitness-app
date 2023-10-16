@@ -24,6 +24,7 @@ const Herobanner = () => {
 
         <Typography  fontWeight="700" 
       sx={{fontSize:{lg:'44px' , xs:'40px'}}}
+      mb="23px" mt="30px"
         >
           Sweat , Smile <br/> and repeat
        </Typography>
@@ -33,6 +34,7 @@ const Herobanner = () => {
        </Typography>
 
         <Button variant="contained" color="success" href="#excercise" >Explore Success</Button>
+        
       
        
        </Box>
